@@ -1,11 +1,13 @@
-body{
+body {
     background-color: #eceef1;
   }
   
   h3{
     font-size: .8rem;
   }
-  h2,h3,h4{
+  h2,
+  h3,
+  h4 {
     font-weight: normal;
   }
   a{
@@ -25,8 +27,7 @@ body{
   }
   input:hover{
     border: none;
-    border-bottom: 1px solid #0077c5 ;
-    
+    border-bottom: 1px solid #0077c5;
   }
   footer{
     display: flex;
@@ -81,7 +82,8 @@ body{
   .header-content{
     width: 100%;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
+
   }
   .account{
     width: 30%;
