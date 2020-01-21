@@ -3,6 +3,11 @@ linters:
     phpcs:
         standard: PSR2
         fixer: true
+   fixers:
+    enable: true 
+    phpcs:
+        standard: PSR2
+        fixer: true
     eslint:
         config: eslint.json
-        fixer: true
+        fixer: true 
